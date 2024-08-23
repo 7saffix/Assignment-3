@@ -32,7 +32,7 @@ const server = http.createServer((req,res)=>{
         });
     }
     else {
-        res.write("Page not found");
+        res.write("404! Page not found");
         res.end(); 
     }
 })
